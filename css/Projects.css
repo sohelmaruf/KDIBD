@@ -1,0 +1,98 @@
+﻿
+.ProjectnWell ul{
+	margin:0;
+	padding:0;
+}
+
+.ProjectnWell ul.container{
+	/* The topmost UL */
+	/*width:240px;*/
+	margin:0 auto;
+	/*padding:50px;*/
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+.ProjectnWell li{
+	list-style:none;
+	text-align:left;
+	padding:0px;
+}
+
+.ProjectnWell li.menu{
+	/* The main list elements */
+	padding:5px 0;
+	width:100%;
+}
+
+.ProjectnWell li.button a{
+	/* The section titles */
+	display:block;
+	font-family:BPreplay,Arial,Helvetica,sans-serif;
+	font-size:14px;
+	/*height:34px;*/
+	overflow:hidden;
+	padding:2px 5px 0;
+	position:relative;
+	/*width:200px;*/
+}
+
+.ProjectnWell li.button a:hover{
+	/* Removing the inherited underline from the titles */
+	text-decoration:none;
+}
+
+.ProjectnWell li.button a span{
+	/* This span acts as the right part of the section's background */
+	height:44px;
+	position:absolute;
+	right:0;
+	top:0;
+	width:4px;
+	display:block;
+}
+
+/* Setting up different styles for each section color */
+
+.ProjectnWell li.button a.Project{ color:#000;}
+.ProjectnWell li.button a.Project span{color:#000;}
+
+/* The hover effects */
+
+.ProjectnWell li.button a:hover{ background-position:bottom left;}
+.ProjectnWell li.button a:hover span{ background-position:bottom right;}
+
+.ProjectnWell .dropdown{
+	/* The expandable lists */
+	display:none;
+	padding-top:5px;
+	width:100%;
+}
+
+.ProjectnWell .dropdown li{
+	/* Each element in the expandable list */
+	background-color: #6FACDF;
+    border: 1px solid #40392C;
+    color: #000000;
+    margin: 2px 0 5px 35px;
+    padding: 2px 4px;
+}
+
+
+.ProjectnWell .clear{
+	clear:both;
+}
+
+
+
+.ProjectnWell a,.ProjectnWell  a:visited {
+	color:#000;
+	text-decoration:none;
+	outline:none;
+}
+
+.ProjectnWell a:hover{
+	text-decoration:underline;
+}
+
+

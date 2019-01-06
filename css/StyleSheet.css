@@ -1,0 +1,25 @@
+﻿body {
+}
+
+.menuSeparator
+{
+    width:300px;
+    }
+    
+    #tblSearch tr td select
+    {
+            width:180px;
+        }
+         .td_search_left
+         {
+             width:100px;
+             padding-left:5px;
+             }
+     #tblSearch span ,  #tblSearch label
+        {
+            color: #C9E8F8;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+            }
