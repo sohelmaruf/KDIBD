@@ -37,7 +37,7 @@
     <nav class="navbar navbar-static-top">
       <div class="container">
         <div class="navbar-header">
-          <a href="../AdminLTE/index2.html" class="navbar-brand"><b>NRB</b> Database</a>
+          <a href="../AdminLTE/index2.html" class="navbar-brand"><b>KNOWLWDGE DIRECTORY INITIATIVE FOR BANGLADESHIS</b></a>
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
             <i class="fa fa-bars"></i>
           </button>
@@ -48,14 +48,14 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="Default.aspx">Registrtaion Form<span class="sr-only">(Current)</span></a></li>
             <li><a href="DirectorySearch.aspx">Directory Search</a></li>
-            <li class="dropdown">
+            <%--<li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu 3 <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
                 <li><a href="#">Sub Menu</a></li>
                 <li><a href="#">Sub Menu</a></li>
                 <li><a href="#">Sub Menu</a></li>
               </ul>
-            </li>
+            </li>--%>
           </ul>
           <%--<form class="navbar-form navbar-left" role="search">
             <div class="form-group">
