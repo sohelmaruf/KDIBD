@@ -1,2 +1,2 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="SiteTitle.ascx.cs" Inherits="Controls_SiteTitle" %>
-<b>Jensen</b> Engineers
+<b>KNOWLEDGE DIRECTORY INITIATIVE FOR BANGLADESHIS</b>
