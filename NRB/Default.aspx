@@ -344,9 +344,13 @@
                             <div class="col-sm-9">
 
                                 <asp:DropDownList ID='ddlYealy_Income_Range' runat='server' class='form-control  chzn-select'>
-                                    <asp:ListItem Value="$0 - $5,000">$0 - $5,000</asp:ListItem>
-                                    <asp:ListItem Value="$5,001 - $10,000">$5,001 - $10,000</asp:ListItem>
-                                    <asp:ListItem Value="$10,001 - $15,000">$10,001 - $15,000</asp:ListItem>
+                                    <asp:ListItem Value="$0 - $20,000">$0 - $20,000</asp:ListItem>
+                                    <asp:ListItem Value="$20,001 - $40,000">$20,001 - $40,000</asp:ListItem>
+                                    <asp:ListItem Value="$40,001 - $60,000">$40,001 - $60,000</asp:ListItem>
+                                    <asp:ListItem Value="$60,001 - $80,000">$60,001 - $80,000</asp:ListItem>
+                                    <asp:ListItem Value="$80,001 - $100,000">$80,001 - $100,000</asp:ListItem>
+                                    <asp:ListItem Value="$100,001 - $120,000">$100,001 - $120,000</asp:ListItem>
+                                    <asp:ListItem Value="$120,001 - $140,000">$120,001 - $140,000</asp:ListItem>
                                     <asp:ListItem Value="Others">Others</asp:ListItem>
                                 </asp:DropDownList>
                             </div>
